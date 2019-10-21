@@ -43,7 +43,8 @@ public class ImplCrudPreparedStmtUtil implements ICrudPreparedStmtUtil
 	}
 
 	@Override
-	public int insertValues(Student student) throws SQLException {
+	public int insertValues(Student student) throws SQLException  
+	{
 		String query = "insert into student values(?,?,?)";
 		preparedStatement = (PreparedStatement) connection.prepareStatement(query);
 		preparedStatement.setInt(1, student.getId());

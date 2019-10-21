@@ -1,10 +1,6 @@
 /**
  * purpose:student model
  */
-
-
-
-
 package com.bridgelabz.jdbc.model;
  public class Student 
 {

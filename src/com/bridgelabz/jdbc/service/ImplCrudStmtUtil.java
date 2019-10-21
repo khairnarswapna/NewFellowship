@@ -31,8 +31,9 @@ public class ImplCrudStmtUtil implements ICrudStmtUtil {
 		statement = connection.createStatement();
 		ResultSet rs = statement.executeQuery(query);
 
+		System.out.println("---------------------------------");
 		while (rs.next()) {
-			System.out.println("-->id: " + rs.getInt(1) + " name: " + rs.getString(2) + " address: " + rs.getString(3));
+			System.out.println("id: " + rs.getInt(1) + " name: " + rs.getString(2) + " address: " + rs.getString(3));
 		}
 
 	}

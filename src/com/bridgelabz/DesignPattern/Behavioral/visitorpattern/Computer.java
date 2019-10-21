@@ -1,5 +1,7 @@
 package com.bridgelabz.DesignPattern.Behavioral.visitorpattern;
 
+
+
 public class Computer implements ComputerPart {
 	
 	   ComputerPart[] parts;

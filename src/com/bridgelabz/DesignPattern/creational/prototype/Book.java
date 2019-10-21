@@ -1,5 +1,6 @@
 package com.bridgelabz.DesignPattern.creational.prototype;
 
+
 public class Book {
 
 	 private int Bookid;

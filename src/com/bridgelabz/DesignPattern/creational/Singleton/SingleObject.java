@@ -1,5 +1,6 @@
 package com.bridgelabz.DesignPattern.creational.Singleton;
 
+
 public class SingleObject 
 {
 	 //create an object of SingleObject

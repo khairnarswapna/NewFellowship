@@ -1,8 +1,11 @@
 /**
  * purpose:Implementation of meditor Design Pattern
+
  * @author :swapna khairnar
  * 
  */
+
+
 package com.bridgelabz.DesignPattern.Behavioral.meditorpattern;
 public class ChatClient {
 
